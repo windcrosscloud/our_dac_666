@@ -1,0 +1,274 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Nov 11 13:46:11 2024
+# Process ID: 7876
+# Current directory: D:/custom_ip/managed_ip_project/managed_ip_project.tmp/our_dac_v1_0_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21088 D:\custom_ip\managed_ip_project\managed_ip_project.tmp\our_dac_v1_0_project\our_dac_v1_0_project.xpr
+# Log file: D:/custom_ip/managed_ip_project/managed_ip_project.tmp/our_dac_v1_0_project/vivado.log
+# Journal file: D:/custom_ip/managed_ip_project/managed_ip_project.tmp/our_dac_v1_0_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/custom_ip/managed_ip_project/managed_ip_project.tmp/our_dac_v1_0_project/our_dac_v1_0_project.xpr
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/custom_ip/ip_repo/our_dac_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file {D:\custom_ip\ip_repo\our_dac_1.0\component.xml}
+WARNING: [IP_Flow 19-5226] Project source file 'd:/custom_ip/ip_repo/our_dac_1.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'd:/custom_ip/ip_repo/our_dac_1.0/src/clk_wiz_0/clk_wiz_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'd:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'd:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'd:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'd:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'd:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'd:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'd:/custom_ip/ip_repo/our_dac_1.0/src/sine_lut.mem' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'd:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'd:/custom_ip/ip_repo/our_dac_1.0/src/clk_wiz_0/clk_wiz_0.xci' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'd:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'd:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'd:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'd:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'd:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'd:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'd:/custom_ip/ip_repo/our_dac_1.0/src/sine_lut.mem' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+WARNING: [IP_Flow 19-3898] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'd:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v' is not found in the project sources. It will be removed from the packaged IP when the sources are merged. If still required, please add this file to the project and re-package.
+ERROR: [Common 17-39] 'ipx::open_ipxact_file' failed due to earlier errors.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-4963] clk_wiz_0 has board value specified. The packaged IP will be restricted to usage with board 'tul.com.tw:pynq-z2:part0:1.0'
+WARNING: [IP_Flow 19-5226] Project source file 'd:/custom_ip/ip_repo/our_dac_1.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-4300] HDL parameter 'DEFAULT_PHASE_STEP' has its value changed from '26030' to '0x000065AE'.
+INFO: [IP_Flow 19-3166] Bus Interface 'S0_AXI': References existing memory map 'S0_AXI'.
+ERROR: [Common 17-39] 'ipx::merge_project_changes' failed due to earlier errors.
+ERROR: [Vivado 12-106] *** Exception: java.lang.NumberFormatException: For input string: "d26030" (See D:/custom_ip/managed_ip_project/managed_ip_project.tmp/our_dac_v1_0_project/vivado_pid7876.debug)
+set_property widget {textEdit} [ipgui::get_guiparamspec -name "DEFAULT_PHASE_STEP" -component [ipx::current_core] ]
+set_property value 26030 [ipx::get_user_parameters DEFAULT_PHASE_STEP -of_objects [ipx::current_core]]
+set_property value 26030 [ipx::get_hdl_parameters DEFAULT_PHASE_STEP -of_objects [ipx::current_core]]
+set_property widget {comboBox} [ipgui::get_guiparamspec -name "DEFAULT_PHASE_STEP" -component [ipx::current_core] ]
+set_property value 0x000065AE [ipx::get_user_parameters DEFAULT_PHASE_STEP -of_objects [ipx::current_core]]
+set_property value 0x000065AE [ipx::get_hdl_parameters DEFAULT_PHASE_STEP -of_objects [ipx::current_core]]
+set_property value_format bitString [ipx::get_user_parameters DEFAULT_PHASE_STEP -of_objects [ipx::current_core]]
+set_property value_format bitString [ipx::get_hdl_parameters DEFAULT_PHASE_STEP -of_objects [ipx::current_core]]
+set_property value_validation_type list [ipx::get_user_parameters DEFAULT_PHASE_STEP -of_objects [ipx::current_core]]
+set_property value_validation_list 0x000065AE [ipx::get_user_parameters DEFAULT_PHASE_STEP -of_objects [ipx::current_core]]
+set_property widget {comboBox} [ipgui::get_guiparamspec -name "DEFAULT_PHASE_STEP" -component [ipx::current_core] ]
+ipx::remove_bus_interface dac_sys_clk [ipx::current_core]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces sys_clk -of_objects [ipx::current_core]]
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/custom_ip/ip_repo/our_dac_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/custom_ip/ip_repo/our_dac_1.0'
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+[Mon Nov 11 15:40:19 2024] Launched synth_1...
+Run output will be captured here: D:/custom_ip/managed_ip_project/managed_ip_project.tmp/our_dac_v1_0_project/our_dac_v1_0_project.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4963] clk_wiz_0 has board value specified. The packaged IP will be restricted to usage with board 'tul.com.tw:pynq-z2:part0:1.0'
+WARNING: [IP_Flow 19-5226] Project source file 'd:/custom_ip/ip_repo/our_dac_1.0/component.xml' ignored by IP packager.
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/custom_ip/ip_repo/our_dac_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/custom_ip/ip_repo/our_dac_1.0'
+add_files -norecurse {D:/custom_ip/ip_repo/our_dac_1.0/hdl/triangle_lut.mem D:/custom_ip/ip_repo/our_dac_1.0/hdl/square_lut.mem}
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+[Mon Nov 11 16:26:38 2024] Launched synth_1...
+Run output will be captured here: D:/custom_ip/managed_ip_project/managed_ip_project.tmp/our_dac_v1_0_project/our_dac_v1_0_project.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4963] clk_wiz_0 has board value specified. The packaged IP will be restricted to usage with board 'tul.com.tw:pynq-z2:part0:1.0'
+WARNING: [IP_Flow 19-5226] Project source file 'd:/custom_ip/ip_repo/our_dac_1.0/component.xml' ignored by IP packager.
+export_ip_user_files -of_objects  [get_files D:/custom_ip/ip_repo/our_dac_1.0/hdl/square_lut.mem] -no_script -reset -force -quiet
+remove_files  D:/custom_ip/ip_repo/our_dac_1.0/hdl/square_lut.mem
+export_ip_user_files -of_objects  [get_files D:/custom_ip/ip_repo/our_dac_1.0/hdl/triangle_lut.mem] -no_script -reset -force -quiet
+remove_files  D:/custom_ip/ip_repo/our_dac_1.0/hdl/triangle_lut.mem
+remove_files  D:/custom_ip/ip_repo/our_dac_1.0/hdl/square_lut.mem
+WARNING: [Vivado 12-818] No files matched 'D:/custom_ip/ip_repo/our_dac_1.0/hdl/square_lut.mem'
+add_files -norecurse {D:/custom_ip/ip_repo/our_dac_1.0/src/triangle_lut.mem D:/custom_ip/ip_repo/our_dac_1.0/src/square_lut.mem}
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4963] clk_wiz_0 has board value specified. The packaged IP will be restricted to usage with board 'tul.com.tw:pynq-z2:part0:1.0'
+WARNING: [IP_Flow 19-5226] Project source file 'd:/custom_ip/ip_repo/our_dac_1.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'd:/custom_ip/ip_repo/our_dac_1.0/hdl/triangle_lut.mem' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_verilogsynthesis (Verilog Synthesis)': File 'd:/custom_ip/ip_repo/our_dac_1.0/hdl/square_lut.mem' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'd:/custom_ip/ip_repo/our_dac_1.0/hdl/triangle_lut.mem' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_verilogbehavioralsimulation (Verilog Simulation)': File 'd:/custom_ip/ip_repo/our_dac_1.0/hdl/square_lut.mem' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+[Mon Nov 11 16:29:45 2024] Launched synth_1...
+Run output will be captured here: D:/custom_ip/managed_ip_project/managed_ip_project.tmp/our_dac_v1_0_project/our_dac_v1_0_project.runs/synth_1/runme.log
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/custom_ip/ip_repo/our_dac_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/custom_ip/ip_repo/our_dac_1.0'
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+[Mon Nov 11 17:19:48 2024] Launched synth_1...
+Run output will be captured here: D:/custom_ip/managed_ip_project/managed_ip_project.tmp/our_dac_v1_0_project/our_dac_v1_0_project.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4963] clk_wiz_0 has board value specified. The packaged IP will be restricted to usage with board 'tul.com.tw:pynq-z2:part0:1.0'
+WARNING: [IP_Flow 19-5226] Project source file 'd:/custom_ip/ip_repo/our_dac_1.0/component.xml' ignored by IP packager.
+set_property core_revision 6 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/custom_ip/ip_repo/our_dac_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/custom_ip/ip_repo/our_dac_1.0'
+set_property core_revision 7 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/custom_ip/ip_repo/our_dac_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/custom_ip/ip_repo/our_dac_1.0'
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+[Mon Nov 11 17:35:17 2024] Launched synth_1...
+Run output will be captured here: D:/custom_ip/managed_ip_project/managed_ip_project.tmp/our_dac_v1_0_project/our_dac_v1_0_project.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+[Mon Nov 11 17:43:40 2024] Launched synth_1...
+Run output will be captured here: D:/custom_ip/managed_ip_project/managed_ip_project.tmp/our_dac_v1_0_project/our_dac_v1_0_project.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4963] clk_wiz_0 has board value specified. The packaged IP will be restricted to usage with board 'tul.com.tw:pynq-z2:part0:1.0'
+WARNING: [IP_Flow 19-5226] Project source file 'd:/custom_ip/ip_repo/our_dac_1.0/component.xml' ignored by IP packager.
+set_property core_revision 8 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/custom_ip/ip_repo/our_dac_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/custom_ip/ip_repo/our_dac_1.0'
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/PhaseAccumulator.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/SineROM.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/dac666.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/module DAC904_WriteModule.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0_S0_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/src/reset_sync.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/custom_ip/ip_repo/our_dac_1.0/hdl/our_dac_v1_0.v:]
+[Mon Nov 11 19:13:52 2024] Launched synth_1...
+Run output will be captured here: D:/custom_ip/managed_ip_project/managed_ip_project.tmp/our_dac_v1_0_project/our_dac_v1_0_project.runs/synth_1/runme.log
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4963] clk_wiz_0 has board value specified. The packaged IP will be restricted to usage with board 'tul.com.tw:pynq-z2:part0:1.0'
+WARNING: [IP_Flow 19-5226] Project source file 'd:/custom_ip/ip_repo/our_dac_1.0/component.xml' ignored by IP packager.
+set_property core_revision 9 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path d:/custom_ip/ip_repo/our_dac_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/custom_ip/ip_repo/our_dac_1.0'
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 11 23:21:57 2024...

@@ -1,0 +1,18 @@
+verilog xil_defaultlib --include "../../../../our_dac_666.srcs/sources_1/bd/dac_sys/ipshared/ec67/hdl" --include "../../../../our_dac_666.srcs/sources_1/bd/dac_sys/ipshared/70cf/hdl" --include "../../../../our_dac_666.srcs/sources_1/bd/dac_sys/ip/dac_sys_processing_system7_0_0" --include "../../../../our_dac_666.srcs/sources_1/bd/dac_sys/ip/dac_sys_our_dac_0_0/src/clk_wiz_0" \
+"../../../bd/dac_sys/ip/dac_sys_processing_system7_0_0/sim/dac_sys_processing_system7_0_0.v" \
+"../../../bd/dac_sys/ip/dac_sys_our_dac_0_0/src/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../bd/dac_sys/ip/dac_sys_our_dac_0_0/src/clk_wiz_0/clk_wiz_0.v" \
+"../../../bd/dac_sys/ipshared/9f56/src/PhaseAccumulator.v" \
+"../../../bd/dac_sys/ipshared/9f56/src/SineROM.v" \
+"../../../bd/dac_sys/ipshared/9f56/src/dac666.v" \
+"../../../bd/dac_sys/ipshared/9f56/src/module DAC904_WriteModule.v" \
+"../../../bd/dac_sys/ipshared/9f56/hdl/our_dac_v1_0_S0_AXI.v" \
+"../../../bd/dac_sys/ipshared/9f56/src/reset_sync.v" \
+"../../../bd/dac_sys/ipshared/9f56/hdl/our_dac_v1_0.v" \
+"../../../bd/dac_sys/ip/dac_sys_our_dac_0_0/sim/dac_sys_our_dac_0_0.v" \
+"../../../bd/dac_sys/sim/dac_sys.v" \
+"../../../bd/dac_sys/ip/dac_sys_auto_pc_0/sim/dac_sys_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

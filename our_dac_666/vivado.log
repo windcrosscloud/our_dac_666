@@ -1,0 +1,83 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Nov 11 17:50:10 2024
+# Process ID: 27456
+# Current directory: D:/custom_ip/our_dac_666
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11548 D:\custom_ip\our_dac_666\our_dac_666.xpr
+# Log file: D:/custom_ip/our_dac_666/vivado.log
+# Journal file: D:/custom_ip/our_dac_666\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/custom_ip/our_dac_666/our_dac_666.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/custom_ip/ip_repo/our_dac_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 747.707 ; gain = 141.934
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1 -jobs 12
+[Mon Nov 11 17:55:39 2024] Launched impl_1...
+Run output will be captured here: D:/custom_ip/our_dac_666/our_dac_666.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Nov 11 18:56:34 2024] Launched impl_1...
+Run output will be captured here: D:/custom_ip/our_dac_666/our_dac_666.runs/impl_1/runme.log
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/custom_ip/ip_repo/our_dac_1.0'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:our_dac:1.0 [get_ips  dac_sys_our_dac_0_0] -log ip_upgrade.log
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- xilinx.com:user:our_dac:1.0 - our_dac_0
+Successfully read diagram <dac_sys> from BD file <D:/custom_ip/our_dac_666/our_dac_666.srcs/sources_1/bd/dac_sys/dac_sys.bd>
+Upgrading 'D:/custom_ip/our_dac_666/our_dac_666.srcs/sources_1/bd/dac_sys/dac_sys.bd'
+INFO: [IP_Flow 19-3422] Upgraded dac_sys_our_dac_0_0 (our_dac_v1.0 1.0) from revision 8 to revision 9
+Wrote  : <D:\custom_ip\our_dac_666\our_dac_666.srcs\sources_1\bd\dac_sys\dac_sys.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/custom_ip/our_dac_666/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 986.707 ; gain = 81.719
+export_ip_user_files -of_objects [get_ips dac_sys_our_dac_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  D:/custom_ip/our_dac_666/our_dac_666.srcs/sources_1/bd/dac_sys/dac_sys.bd]
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+Wrote  : <D:\custom_ip\our_dac_666\our_dac_666.srcs\sources_1\bd\dac_sys\dac_sys.bd> 
+VHDL Output written to : D:/custom_ip/our_dac_666/our_dac_666.srcs/sources_1/bd/dac_sys/synth/dac_sys.v
+VHDL Output written to : D:/custom_ip/our_dac_666/our_dac_666.srcs/sources_1/bd/dac_sys/sim/dac_sys.v
+VHDL Output written to : D:/custom_ip/our_dac_666/our_dac_666.srcs/sources_1/bd/dac_sys/hdl/dac_sys_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block our_dac_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/custom_ip/our_dac_666/our_dac_666.srcs/sources_1/bd/dac_sys/ip/dac_sys_auto_pc_0/dac_sys_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file D:/custom_ip/our_dac_666/our_dac_666.srcs/sources_1/bd/dac_sys/hw_handoff/dac_sys.hwh
+Generated Block Design Tcl file D:/custom_ip/our_dac_666/our_dac_666.srcs/sources_1/bd/dac_sys/hw_handoff/dac_sys_bd.tcl
+Generated Hardware Definition File D:/custom_ip/our_dac_666/our_dac_666.srcs/sources_1/bd/dac_sys/synth/dac_sys.hwdef
+generate_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1257.168 ; gain = 270.461
+catch { config_ip_cache -export [get_ips -all dac_sys_our_dac_0_0] }
+catch { config_ip_cache -export [get_ips -all dac_sys_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP dac_sys_auto_pc_0, cache-ID = 68168676865e6a57; cache size = 15.779 MB.
+export_ip_user_files -of_objects [get_files D:/custom_ip/our_dac_666/our_dac_666.srcs/sources_1/bd/dac_sys/dac_sys.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] D:/custom_ip/our_dac_666/our_dac_666.srcs/sources_1/bd/dac_sys/dac_sys.bd]
+launch_runs -jobs 12 dac_sys_our_dac_0_0_synth_1
+[Mon Nov 11 19:15:24 2024] Launched dac_sys_our_dac_0_0_synth_1...
+Run output will be captured here: D:/custom_ip/our_dac_666/our_dac_666.runs/dac_sys_our_dac_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files D:/custom_ip/our_dac_666/our_dac_666.srcs/sources_1/bd/dac_sys/dac_sys.bd] -directory D:/custom_ip/our_dac_666/our_dac_666.ip_user_files/sim_scripts -ip_user_files_dir D:/custom_ip/our_dac_666/our_dac_666.ip_user_files -ipstatic_source_dir D:/custom_ip/our_dac_666/our_dac_666.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/custom_ip/our_dac_666/our_dac_666.cache/compile_simlib/modelsim} {questa=D:/custom_ip/our_dac_666/our_dac_666.cache/compile_simlib/questa} {riviera=D:/custom_ip/our_dac_666/our_dac_666.cache/compile_simlib/riviera} {activehdl=D:/custom_ip/our_dac_666/our_dac_666.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/custom_ip/our_dac_666/our_dac_666.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Mon Nov 11 19:15:49 2024] Launched dac_sys_our_dac_0_0_synth_1, synth_1...
+Run output will be captured here:
+dac_sys_our_dac_0_0_synth_1: D:/custom_ip/our_dac_666/our_dac_666.runs/dac_sys_our_dac_0_0_synth_1/runme.log
+synth_1: D:/custom_ip/our_dac_666/our_dac_666.runs/synth_1/runme.log
+[Mon Nov 11 19:15:49 2024] Launched impl_1...
+Run output will be captured here: D:/custom_ip/our_dac_666/our_dac_666.runs/impl_1/runme.log
+file copy -force D:/custom_ip/our_dac_666/our_dac_666.runs/impl_1/dac_sys_wrapper.sysdef D:/custom_ip/our_dac_666/our_dac_666.sdk/dac_sys_wrapper.hdf
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 11 23:22:02 2024...
